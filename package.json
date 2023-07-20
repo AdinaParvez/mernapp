@@ -24,7 +24,7 @@
     "express-formidable": "^1.2.0",
     "http-proxy-middleware": "^2.0.6",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^14.20.1",
+    "mongoose": "^5.13.x",
     "morgan": "^1.10.0",
     "nodemon": "^3.0.1",
     "react-icons": "^4.10.1",
