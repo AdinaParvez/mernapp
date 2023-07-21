@@ -2,11 +2,11 @@
   "name": "ecommerceapp2023",
   "version": "1.0.0",
   "description": "ecommerce rest api",
-  "main": "server.js", // Change from "server.mjs" to "server.js"
-  "type": "module", // Add this line
+  "main": "server.js", 
+  "type": "module", 
   "scripts": {
-    "start": "node server.js", // Change from "node server.mjs" to "node server.js"
-    "server": "nodemon server.js", // Change from "nodemon server.mjs" to "nodemon server.js"
+    "start": "node server.js", 
+    "server": "nodemon server.js", 
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
