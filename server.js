@@ -33,7 +33,7 @@ app.get('/', (req, res)=>{
     res.send('<h1>Welcome to Ecommerce App</h1>')
 })
 //PORT
-const PORT=process.env.PORT || 8080;
+const PORT=process.env.PORT || 8080 || 2406:da18:880:3802::c8;
 
 //run listen
 app.listen(PORT,()=>{
